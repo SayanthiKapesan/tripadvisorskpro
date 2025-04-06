@@ -17,6 +17,10 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
 }
 
 .navbar__sec__one {
@@ -123,7 +127,9 @@ padding-bottom: 20px;    font-size: 30px;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    
+    position: sticky;
+background-color: white;  
+top: 8%;  
 }
 
 .navbar__main__two p{
@@ -170,6 +176,10 @@ padding-bottom: 20px;    font-size: 30px;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    background-color: white;
+    position: sticky;
+    top: 11%;
 
 }
 
@@ -338,6 +348,7 @@ color: white;
     margin-top: 10px;
     flex-wrap: wrap;
     gap: 20px;
+    
 
 }
     
@@ -391,6 +402,8 @@ color: white;
 
 /*see first title */
 .seefirst_container{
+    
+    position: relative;
  width: 100%;
 display: flex;
 justify-content: center;
