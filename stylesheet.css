@@ -117,17 +117,16 @@ margin-left:10px ;
 
 .title__middle {
     background-color: white;
-    display: block;
     text-align: center;
-padding-bottom: 20px;    font-size: 30px;
+   font-size: 30px;
     font-weight: 900;
+    padding-bottom: 30px;
 }
 
 
 /*NAVBAR MAIN TWO HERE*/
 
 .navbar__main__two {
-    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     font-size: 17px;
@@ -190,7 +189,9 @@ z-index: 1000;
     top: 11%;
 
 }
-
+.navbar__main__two_sub1{
+    background-color: white;
+}
 .search__icon{
     display: flex;
     flex-wrap: wrap;
