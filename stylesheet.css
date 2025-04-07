@@ -13,13 +13,15 @@ background-color: white;
 
 
 .navbar {
+    margin-top: 20px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
-    position: sticky;
+position: sticky;
     top: 0;
     background-color: white;
+    margin-bottom: 10px;
     
 }
 
@@ -65,7 +67,7 @@ margin-left:10px ;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .navbar__sec__three h5,img
@@ -113,6 +115,7 @@ margin-left:10px ;
 /*WHERE HERE*/
 
 .title__middle {
+    background-color: white;
     display: block;
     text-align: center;
 padding-bottom: 20px;    font-size: 30px;
@@ -206,7 +209,7 @@ top: 8%;
 .search__icon input{
     font-family: 16px;
     border: none;
-    width:auto ;
+    width:600px ;
 }
 
 
@@ -224,8 +227,13 @@ top: 8%;
 }
 
 
-
+.slide__show__img{
+display: inline-block;
+width: 100;
+background-color: white;
+}
 .slide__show__img img{
+height: auto;
     width: 100%;
 }
 /*
@@ -299,9 +307,9 @@ height: 70%;}
 .container__2
 {
 padding: 10px;
+z-index: 0;
 }
 .container__imgages2{
-
     display: flex;
        justify-content: space-between;
        margin-top: 10px;
@@ -311,13 +319,13 @@ padding: 10px;
 }
 
 .sub__container__images__1{
+    z-index: 0;
     position: relative;
 flex-grow: 1;
 flex-basis: 20%;}
 
 
 .sub__container__images__1 img{
-    
     border-radius: 5px;
     width: 100%;
     height: auto;}
@@ -407,31 +415,34 @@ color: white;
 
 /*see first title */
 .seefirst_container{
-    
-    position: relative;
- width: 100%;
-display: flex;
-justify-content: center;
+padding: 10px;
 }
 .seefirst__sub{
     position: relative;
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     border-radius: 5px;
-    width: 100%;
+    width: 100;
+    display: inline-block;
 }
 .seefirst__sub img{
     width: 100%;
     border: 2px solid white;
+    display: block;
 }
 
 
 .textsee__first{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 60%;
     text-align: justify;
 padding-right:20px ;     
- 
+transform: translate(-50%, -50%);
+width: 400px;
+animation-name: zoom;
+animation-duration: 2s;
+opacity: 0;  
+animation-fill-mode: forwards;
 }
 
 .linke {
@@ -443,6 +454,18 @@ margin-top: 10px;
   width: fit-content;
   border-radius: 20px;
   cursor: pointer;
+
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 /*see first title end */
 
