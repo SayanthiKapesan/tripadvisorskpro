@@ -14,14 +14,15 @@ background-color: white;
 
 
 .navbar {
-padding-top: 30px;    width: 100%;
+    margin-top: 20px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 position: sticky;z-index: 1000;
     top: 0;
     background-color: white;
-padding-bottom: 10px;    
+    
 }
 
 .navbar__sec__one {
@@ -35,7 +36,8 @@ padding-bottom: 10px;
 
 .navbar__sec__two {
     background-color: white;
-padding-left: 20px; display: flex;
+margin-left:10px ;   
+ display: flex;
     flex-wrap: wrap;
     align-items: center;
     font-size: 16px;
@@ -132,9 +134,8 @@ padding-left: 20px; display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
-background-color: white; 
-
-top: 8%;  z-index: 1000;
+background-color: white;  
+top: 8%;  z-index: 1000;height: auto;
 
 }
 
