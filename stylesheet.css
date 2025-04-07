@@ -18,7 +18,8 @@ background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-position: sticky;
+position: sticky;z-index: 1000;
+
     top: 0;
     background-color: white;
     margin-bottom: 10px;
@@ -135,7 +136,8 @@ padding-bottom: 20px;    font-size: 30px;
     align-items: center;
     position: sticky;
 background-color: white;  
-top: 8%;  
+top: 8%;  z-index: 1000;
+
 }
 
 .navbar__main__two p{
@@ -176,7 +178,7 @@ top: 8%;
 
 /*Search bar*/
 .search__bar{
-
+z-index: 1000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -418,27 +420,30 @@ color: white;
 padding: 10px;
 }
 .seefirst__sub{
-    position: relative;
+    position: relative;overflow: visible;
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     border-radius: 5px;
     width: 100;
     display: inline-block;
 }
 .seefirst__sub img{
+    
     width: 100%;
     border: 2px solid white;
-    display: block;
+    display:block;
+    z-index: 0;
 }
 
 
 .textsee__first{
+    flex-wrap: wrap;
     position: absolute;
     top: 20%;
     left: 60%;
     text-align: justify;
 padding-right:20px ;     
 transform: translate(-50%, -50%);
-width: 400px;
+width: 250px;
 animation-name: zoom;
 animation-duration: 2s;
 opacity: 0;  
