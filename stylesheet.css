@@ -133,7 +133,6 @@ margin-left:10px ;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    position: sticky;
 background-color: white;  
 top: 8%;  z-index: 1000;height: auto;
 
@@ -186,7 +185,7 @@ z-index: 1000;
     position: sticky;
     background-color: white;
     position: sticky;
-    top: 11%;
+    top: 7%;
 
 }
 .navbar__main__two_sub1{
