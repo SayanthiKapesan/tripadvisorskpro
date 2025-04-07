@@ -8,7 +8,7 @@
 
 body {
     font-family: "Gabarito", sans-serif;
-
+background-color: white;
 }
 
 
@@ -24,6 +24,7 @@ body {
 }
 
 .navbar__sec__one {
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -32,6 +33,7 @@ body {
 
 
 .navbar__sec__two {
+    background-color: white;
 margin-left:10px ;   
  display: flex;
     flex-wrap: wrap;
@@ -46,6 +48,7 @@ margin-left:10px ;
 .navbar__sec__two p {
     padding: 7px; 
     transition: all 0.2s ease; 
+    background-color: whi;
   }
   
   .navbar__sec__two p:hover {
@@ -58,7 +61,7 @@ margin-left:10px ;
   }
 
 
-.navbar__sec__three {
+.navbar__sec__three {background-color: white;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -298,6 +301,7 @@ height: 70%;}
 padding: 10px;
 }
 .container__imgages2{
+
     display: flex;
        justify-content: space-between;
        margin-top: 10px;
@@ -313,6 +317,7 @@ flex-basis: 20%;}
 
 
 .sub__container__images__1 img{
+    
     border-radius: 5px;
     width: 100%;
     height: auto;}
