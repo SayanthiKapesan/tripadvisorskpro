@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
 
 
@@ -13,17 +14,14 @@ background-color: white;
 
 
 .navbar {
-    margin-top: 20px;
-    width: 100%;
+padding-top: 30px;    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 position: sticky;z-index: 1000;
-
     top: 0;
     background-color: white;
-    margin-bottom: 10px;
-    
+padding-bottom: 10px;    
 }
 
 .navbar__sec__one {
@@ -37,8 +35,7 @@ position: sticky;z-index: 1000;
 
 .navbar__sec__two {
     background-color: white;
-margin-left:10px ;   
- display: flex;
+padding-left: 20px; display: flex;
     flex-wrap: wrap;
     align-items: center;
     font-size: 16px;
@@ -121,6 +118,7 @@ margin-left:10px ;
    font-size: 30px;
     font-weight: 900;
     padding-bottom: 30px;
+
 }
 
 
@@ -134,7 +132,8 @@ margin-left:10px ;
     justify-content: center;
     align-items: center;
     position: sticky;
-background-color: white;  
+background-color: white; 
+
 top: 8%;  z-index: 1000;
 
 }
